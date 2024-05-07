@@ -110,7 +110,7 @@ const SettingsModal: React.FC<SettingsModalProps> = ({
             </div>
           </div>
 
-          <div className='mt-6 flex items-center justify-end gap-x-6'>
+          <div className='mt-6 flex items-center justify-end gap-x-2'>
             <Button disabled={isLoading} secondary onClick={onClose}>
               Cancel
             </Button>
